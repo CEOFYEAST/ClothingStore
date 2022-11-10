@@ -1,0 +1,55 @@
+#checkout-main {
+  color: white;
+}
+
+#checkout-main img {
+  width: 175px;
+  height: 175px;
+}
+
+.blob {
+  border-bottom: dotted white 2px;
+}
+
+.container {
+  background-color: black;
+  font-family: "ReplitHack", monospace;
+}
+
+.div {
+  padding: 10px;
+  background-color: white;
+}
+
+.checkout-item {
+  margin: 10px;
+  background-color: white;
+  color: black;
+}
+
+.item-size {
+  border-left: solid black 2px;
+  border-right: dotted black 2px;
+  height: 100%;
+}
+
+.padding-bottom{
+	padding-bottom:5%;
+	padding-top:3%;
+	font-size:150%;
+	border-top:dotted white 1px;
+}
+.padding-bottom span{
+	padding-right:2%;
+}
+
+
+
+.green-filter { filter: invert(74%) sepia(83%) saturate(4930%) hue-rotate(85deg) brightness(115%) contrast(129%); }
+.yellow-filter { filter: invert(92%) sepia(68%) saturate(4817%) hue-rotate(347deg) brightness(109%) contrast(110%); }
+.red-filter { filter: invert(22%) sepia(82%) saturate(6232%) hue-rotate(356deg) brightness(103%) contrast(123%); }
+.blue-filter { filter: invert(8%) sepia(100%) saturate(7411%) hue-rotate(248deg) brightness(99%) contrast(140%); }
+
+.emptyCart{
+	color:white;
+}

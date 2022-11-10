@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="clothing.css">
+</head>
+<body>
+	<div class="blob">
+    	<div class="header flex middle center">
+	    	<div class="x1">
+				<img src="IMG_7450.PNG" alt="">
+			</div>
+	    	<div class="x3 flex">
+				<div class="name"><a href="index.html"><img src="IMG_7451.PNG" alt=""></a></div>
+			</div>
+	    	
+	    </div>
+		<div class="nav flex">
+			<div class="x1 flex center"><a href="clothing.html"><span>Clothing</span></a></div>
+			<div class="x1 flex center"><a href="donations.html"><span>Donations</span></a></div>
+			<div class="x1 flex center"><a href="checkout.html"><span>Checkout</span></a></div>
+			<div class="x1 flex center"><a href="about.html"><span>About</span></a></div>
+		</div>
+	</div>
+  <div id="clothing-container" class="container" onClick="shrinkOnClick();">
+    <div id="clothing-main" >
+      <div class="flex center">
+        <div class="x1 flex middle center clothing" onclick="onClothingClick(this);">
+          <div class="x1 flex center clothing-image">
+            <img src="clothes/buttonup.png" alt="">
+          </div>
+          <div class="x1 options hidden">
+      <div>
+        <div class="color">Color</div>
+        <div class="flex">
+          <button class="x1 green" onclick="changeColor(this, 'green');"></button>
+          <button class="x1 yellow"  onclick="changeColor(this, 'yellow');"></button>
+          <button class="x1 red" onclick="changeColor(this, 'red');"></button>
+          <button class="x1 blue" onclick="changeColor(this, 'blue');"></button>
+          <button class="x1 black" onclick="changeColor(this, 'black');"></button>
+        </div>
+      </div>
+      <div>
+        <div class="size">Size</div>
+        <div class="flex size-options">
+          <div class="x1 flex middle center" onclick="chooseSize(this)">XL</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">L</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">M</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">S</div>
+        </div>
+      </div>
+    </div>
+          <div class="x1 checkout hidden">
+      <div class="flex center price-text">$<var class="price">45</var></div>
+      <div class="flex center add-to-cart" onclick="addToCart();">Add To Cart</div>
+    </div>
+        </div>
+        <div class="x1 flex middle center clothing" onclick="onClothingClick(this);">
+          <div class="x1 flex center clothing-image">
+            <img src="clothes/crewneck.png" alt="">
+          </div>
+          <div class="x1 options hidden">
+      <div>
+        <div class="color">Color</div>
+        <div class="flex">
+          <button class="x1 green" onclick="changeColor(this, 'green');"></button>
+          <button class="x1 yellow"  onclick="changeColor(this, 'yellow');"></button>
+          <button class="x1 red" onclick="changeColor(this, 'red');"></button>
+          <button class="x1 blue" onclick="changeColor(this, 'blue');"></button>
+          <button class="x1 black" onclick="changeColor(this, 'black');"></button>
+        </div>
+      </div>
+      <div>
+        <div class="size">Size</div>
+        <div class="flex size-options">
+          <div class="x1 flex middle center" onclick="chooseSize(this)">XL</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">L</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">M</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">S</div>
+        </div>
+      </div>
+    </div>
+          <div class="x1 checkout hidden">
+      <div class="flex center price-text">$<var class="price">30</var></div>
+      <div class="flex center add-to-cart" onclick="addToCart();">Add To Cart</div>
+    </div>
+        </div>
+        <div class="x1 flex middle center clothing" onclick="onClothingClick(this);">
+          <div class="x1 flex center clothing-image">
+            <img src="clothes/jacket.png" alt="">
+          </div>
+          <div class="x1 options hidden">
+      <div>
+        <div class="color">Color</div>
+        <div class="flex">
+          <button class="x1 green" onclick="changeColor(this, 'green');"></button>
+          <button class="x1 yellow"  onclick="changeColor(this, 'yellow');"></button>
+          <button class="x1 red" onclick="changeColor(this, 'red');"></button>
+          <button class="x1 blue" onclick="changeColor(this, 'blue');"></button>
+          <button class="x1 black" onclick="changeColor(this, 'black');"></button>
+        </div>
+      </div>
+      <div>
+        <div class="size">Size</div>
+        <div class="flex size-options">
+          <div class="x1 flex middle center" onclick="chooseSize(this)">XL</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">L</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">M</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">S</div>
+        </div>
+      </div>
+    </div>
+          <div class="x1 checkout hidden">
+      <div class="flex center price-text">$<var class="price">100</var></div>
+      <div class="flex center add-to-cart" onclick="addToCart();">Add To Cart</div>
+    </div>
+        </div>
+      </div>
+      <div class="flex center">
+        <div class="x1 flex middle center clothing" onclick="onClothingClick(this);">
+          <div class="x1 flex center clothing-image">
+            <img src= "clothes/vneck.png"  alt="">
+          </div>
+          <div class="x1 options hidden">
+      <div>
+        <div class="color">Color</div>
+        <div class="flex">
+          <button class="x1 green" onclick="changeColor(this, 'green');"></button>
+          <button class="x1 yellow"  onclick="changeColor(this, 'yellow');"></button>
+          <button class="x1 red" onclick="changeColor(this, 'red');"></button>
+          <button class="x1 blue" onclick="changeColor(this, 'blue');"></button>
+          <button class="x1 black" onclick="changeColor(this, 'black');"></button>
+        </div>
+      </div>
+      <div>
+        <div class="size">Size</div>
+        <div class="flex size-options">
+          <div class="x1 flex middle center" onclick="chooseSize(this)">XL</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">L</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">M</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">S</div>
+        </div>
+      </div>
+    </div>
+          <div class="x1 checkout hidden">
+      <div class="flex center price-text">$<var class="price">30</var></div>
+      <div class="flex center add-to-cart" onclick="addToCart();">Add To Cart</div>
+    </div>
+        </div>
+        <div class="x1 flex middle center clothing" onclick="onClothingClick(this);">
+          <div class="x1 flex center clothing-image">
+            <img src= "clothes/sweatshirt.png" alt="">
+          </div>
+          <div class="x1 options hidden">
+      <div>
+        <div class="color">Color</div>
+        <div class="flex">
+          <button class="x1 green" onclick="changeColor(this, 'green');"></button>
+          <button class="x1 yellow"  onclick="changeColor(this, 'yellow');"></button>
+          <button class="x1 red" onclick="changeColor(this, 'red');"></button>
+          <button class="x1 blue" onclick="changeColor(this, 'blue');"></button>
+          <button class="x1 black" onclick="changeColor(this, 'black');"></button>
+        </div>
+      </div>
+      <div>
+        <div class="size">Size</div>
+        <div class="flex size-options">
+          <div class="x1 flex middle center" onclick="chooseSize(this)">XL</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">L</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">M</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">S</div>
+        </div>
+      </div>
+    </div>
+          <div class="x1 checkout hidden">
+      <div class="flex center price-text">$<var class="price">50</var></div>
+      <div class="flex center add-to-cart" onclick="addToCart();">Add To Cart</div>
+    </div>
+        </div>
+        <div class="x1 flex middle center clothing" onclick="onClothingClick(this);">
+          <div class="x1 flex center clothing-image">
+            <img src="clothes/jacket2.png" alt="">
+          </div>
+          <div class="x1 options hidden">
+      <div>
+        <div class="color">Color</div>
+        <div class="flex">
+          <button class="x1 green" onclick="changeColor(this, 'green');"></button>
+          <button class="x1 yellow"  onclick="changeColor(this, 'yellow');"></button>
+          <button class="x1 red" onclick="changeColor(this, 'red');"></button>
+          <button class="x1 blue" onclick="changeColor(this, 'blue');"></button>
+          <button class="x1 black" onclick="changeColor(this, 'black');"></button>
+        </div>
+      </div>
+      <div>
+        <div class="size">Size</div>
+        <div class="flex size-options">
+          <div class="x1 flex middle center" onclick="chooseSize(this)">XL</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">L</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">M</div>
+          <div class="x1 flex middle center" onclick="chooseSize(this)">S</div>
+        </div>
+      </div>
+    </div>
+          <div class="x1 checkout hidden">
+      <div class="flex center price-text">$<var class="price">80</var></div>
+      <div class="flex center add-to-cart" onclick="addToCart();">Add To Cart</div>
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>

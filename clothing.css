@@ -1,0 +1,78 @@
+#clothing-container {
+  background-color: black;
+}
+
+
+#clothing-main img {
+  width: 175px;
+  height: 175px;
+}
+
+#clothing-container div{
+	padding: 10px;
+}
+
+.blob {
+  border-bottom: dotted white 2px;
+}
+
+.clothing {
+  background-color: white;
+  margin: 10px;
+}
+
+.options button {
+  border-radius: 50%;
+  height: 25px;
+  border: none;
+  margin: 0px 5px 0px 5px;
+}
+
+.size-options {
+  padding: 0px;
+}
+
+.size-options > div {
+  font-weight: bold;
+}
+
+.size-options > div:hover {
+  box-shadow:0px 0px 0px 3px black inset;
+}
+
+.options {
+  border-left: dotted black 2px;
+}
+
+.add-to-cart {
+  border-top: dotted black 2px;
+}
+
+.add-to-cart:hover {
+  box-shadow:0px 0px 0px 3px black inset;
+}
+
+.size, .color {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.price-text, .add-to-cart{
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.hidden { display: none; }
+
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+.red { background-color: red; }
+.blue { background-color: blue; }
+.black { background-color: black; }
+
+.green-filter { filter: invert(74%) sepia(83%) saturate(4930%) hue-rotate(85deg) brightness(115%) contrast(129%); }
+.yellow-filter { filter: invert(92%) sepia(68%) saturate(4817%) hue-rotate(347deg) brightness(109%) contrast(110%); }
+.red-filter { filter: invert(22%) sepia(82%) saturate(6232%) hue-rotate(356deg) brightness(103%) contrast(123%); }
+.blue-filter { filter: invert(8%) sepia(100%) saturate(7411%) hue-rotate(248deg) brightness(99%) contrast(140%); }
+
+.blue-text { color: blue; }

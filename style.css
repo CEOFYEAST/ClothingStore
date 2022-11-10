@@ -1,0 +1,136 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+/* based on dbox.us */
+body {
+  background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
+  background-size: 1200% 1200%;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
+}
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+/*div{
+	border: solid black 2px;
+	padding: 5px;
+	margin: 5px;
+}*/
+
+.flex{display:flex;}
+.flex.middle{align-items: center;}
+.flex.center{justify-content: center;}
+.flex.right{justify-content: right;}
+.flex.left{justify-content: left;}
+
+.x1{flex:1;}
+.x2{flex:2;}
+.x3{flex:3;}
+.x4{flex:4;}
+.x5{flex:5;}
+.x6{flex:6;}
+
+.blob{
+	width:60%;
+	margin: auto;
+	color:white;
+	background-color: black;
+	font-family: "ReplitHack", monospace;
+    padding-bottom: 30px;
+}
+
+.blob .x3 {
+  padding-top: 40px;
+}
+
+.container{
+	max-width:60%;
+	margin: auto;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+.name{
+	font-size:400%;
+}
+
+img{
+	width:100%;
+}
+
+.bill{
+	width:100%;
+	border-radius: 4px;
+	background-color: lightgray;
+	padding:7%;
+	font-family: "ReplitHack", monospace;
+	margin:2%;
+	border:solid black 2px;
+	
+}
+
+
+.yourstuff{
+	margin: auto;
+	color:black;
+  	font-size:200%;
+	font-family: "ReplitHack", monospace;
+  	
+}
+
+.qr {
+    max-width: 30%;
+}
+.thiccBorder{
+	border: solid black 4px;
+}
+
+.thePlan, .plan-content{
+  border-bottom:solid black 4px;
+  padding: 10px;
+}
+
+.thePlan {
+  font-size: 1.2em;
+}
+
+.plan-content {
+  text-align: center;
+}
+
+.sizeToFit{
+	margin: 20px 0px 20px 0px;
+}
+
+#shirt, #jacket{
+  width: 70%;
+  height: 70%;
+}
+
+#qr {
+  width: 90%;
+  height: 90%;
+}
+
+#blurb {
+  padding: 5px 0px 5px 0px;
+}
+
+.add-to-cart::after {
+  content: '🛒';
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
